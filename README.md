@@ -1,6 +1,7 @@
 # Acer-Nitro-5-AN515-52-OpenCore-EFI
-This repo's all about custom made EFI specifically made for Nitro 5 AN515-52, Opencore<br />
-No issues whatsoever.
+Shit might not work, as with any opencore efi.<br />
+
+This is only to be used as a base for your computer and meant for the serial number to be changed. 
 
 #Configuration
 	CPU: i5 8300H<br />
