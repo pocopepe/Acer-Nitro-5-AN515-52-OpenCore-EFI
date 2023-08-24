@@ -1,7 +1,7 @@
 # Acer-Nitro-5-AN515-52-OpenCore-EFI
 
 ## What is an Opencore
-Opencores focuses on making commercial solutions a open source alternative, in this repo I've focused on building an efi for my specific configuration piece by piece. Opencore acts as a layer that helps you configure the raw mac os for your specific pc by giving you boxes that you could fill with ACPIS, KEXTS, SMBIOS. 
+Opencores focuses on making commercial solutions a open source alternative, in this repo I've focused on building an efi for my specific configuration piece by piece. Opencore acts as a layer that helps you configure the raw mac os for your specific pc by giving you boxes that you could fill with ACPIS, KEXTS, SMBIOS. It helps you boot into your memory directly not having to have a disk.
 
 ## What's an EFI
 An efi is basically a folder or a partition per se that your computer relies on to boot its system up, help it load up its drivers, cross reference its functionalities and parameters.
@@ -18,8 +18,9 @@ Well considering you've decided to throw my prior advice off the window and to j
 On windows, proceed with rufus directly and create a boot-able drive with fat32 file type, Bios or Uefi, and a gpt partition scheme and eh voila you've got your boot-able drive. Transfer the basesystem from x64 page and add it inside a folder named <em>com.apple.recovery.boot</em> in your USB drive. Now proceed to transfer the borrowed efi and place it inside the main directory of your USB drive.
 <h3>3.Installation</h3>
 Installing it is quite simple, boot off it, wipe the disk in APFS file system in the utilities tab up there. Install it into the drive you've wiped off. It should restart on its own and you might have to do the whole process again or installing it, once that happens, boot into your hackintosh and voila you've scammed the system my mate.
-<em><h3><strong> For further info/ more deets into the technical aspect of it, read through the <a href="https://dortania.github.io/OpenCore-Install-Guide/">Opencore mannual</a></strong></h3></em>
-# Configuration
+<em><h4><strong> For further info/ more deets into the technical aspect of it, read through the <a href="https://dortania.github.io/OpenCore-Install-Guide/">Opencore mannual</a></strong><break/> Do note that this is just a compilation of publically available free guide dortania and I'd highly would recommend for you to be taking your own time with building one, and mostly use this as a refference.</h4></em>
+
+## Configuration
 	CPU: i5 8300H<br />
 	iGPU: Intel UHD Graphics 630<br />
 	dGPU: GeForce GTX 1050Ti<br />
