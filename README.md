@@ -25,8 +25,8 @@ Installing it is quite simple, boot off it, wipe the disk in APFS file system in
 	iGPU: Intel UHD Graphics 630<br />
 	dGPU: GeForce GTX 1050Ti<br />
 	Chipset: Coffee Lake<br />
-	Touchpad: Elan I2C HID<br />
-	Keyboard: PS/2 <br />
+	Touchpad: Elan I2C HID (or) ELAN0504:01 04F3:3091 Mouse<br />
+	Keyboard: AT Translated Set 2 Keyboard<br />
 	Audio: <br />
 	Network: <br />
 		-Wifi+BT: Intel Wireless-AC 9560<br />
