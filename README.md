@@ -6,7 +6,7 @@ Opencores focuses on making commercial solutions a open source alternative, in t
 ## What's an EFI
 An efi is basically a folder or a partition per se that your computer relies on to boot its system up, help it load up its drivers, cross reference its functionalities and parameters.
 
-## How can I you use my EFIs
+## How can you use my EFIs
 With great power comes great responsibility, Access to an efi aka gives to access to the bare-bones of your computer, be sure of the kexts that you add inside as they could end up acting as a spy layer. Nothing's perfect a quote by hiromu. In light of that, this efi has been tested for wifi, bluetooth, and Geolocation functionalities. Changing screen brightness, and audio works as you'd expect. There's still a quirk with battery indicator, and the cpu temp module. As you might expect, airdrop, and phone doesn't work whereas facetime seems to be working perfectly. This efi could be used standalone on your computer but I really wouldn't recommend this for a daily driver. This is to serve as a base to you endless testings and to act as a jump pad into errors and compatibility issues waiting to be solved. 
 
 # Installing
